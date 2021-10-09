@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+
+     <style>
+
+          html{
+               background-color: cornsilk;
+               border: crimson;
+          }
+          .grid{
+               display: grid;
+               display grid-template-columns: 1fr;
+               gap: 10px;
+          }
+
+          .img{
+               width: 100%;
+               height: auto;
+          }
+
+          @media screen and (max-width: 799px) and (min-width: 400px) {
+               .grid{
+                    grid-template-columns: 1fr 1fr;
+               }
+          }
+
+
+
+     </style>
+</head>
+<body>
+     <div class="grid">
+          <img src="./imageForLarg/i1.jpeg" alt="img1">
+          <img src="./imageForLarg/i2.jpeg" alt="img2">
+          <img src="./imageForLarg/i3.jpeg" alt="img3">
+          <img src="./imageForLarg/i5.jpeg" alt="img4">
+          <img src="./imageForLarg/i6.jpeg" alt="img5">
+          <img src="./imageForLarg/i7.jpeg" alt="img7">
+          <img src="./imageForLarg/i8.jpeg" alt="img8">
+     </div>
+</body>
+</html>

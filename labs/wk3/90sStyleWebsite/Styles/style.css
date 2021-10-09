@@ -1,0 +1,109 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+
+body.pg1{
+     background-color: ;
+     background-color: cover;
+}
+
+:nth-child(1){
+     background-color: powderblue;
+}
+
+
+body header .mainMenu{
+     box-sizing: content-box;
+     width: full;
+     border: solid burlywood 5px;
+     justify-content: center;
+     flex-direction:column;
+     border-radius:10px;
+     position:static;
+     text-align: center;
+     display: inline;
+
+
+
+}
+
+.mainMenu :hover{
+     background-color: chartreuse;
+     color:#fff;
+     font-style: bold;
+
+
+}
+
+a{
+     color: black;
+     font-size: 20px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-direction: none;
+     
+}
+
+.A a{
+     text direction: none;
+     padding: 5 px 5px;
+
+}
+
+
+
+
+.mainpage{
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+     position: cover;
+}
+
+body.page1.A{ 
+     background: url(../images/hp1.jpeg) 
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+}
+
+
+.page3 div{
+     flex: 50%;
+     padding: 0 4px;
+}
+
+
+
+
+
+
+
+
+/* #mainMenu {
+	margin:10px;
+	width:900px;
+	font-family: sans-serif;
+}
+#mainMenu li {
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+	border:1px solid #000;
+}
+
+#mainMenu a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	background-color:#fff;
+	color:#009;
+}
+
+#mainMenu a:hover {
+	background-color:#009;
+	color:#fff;
+} */

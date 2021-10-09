@@ -1,0 +1,101 @@
+/*for My bio*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+html {
+  background-color:#dfe3ee !important;
+  border-spacing: 0rem;
+  border: 2px ridge;
+}
+
+
+body {
+  font-family: 'Times New Roman', Times, serif
+}
+
+
+.mainHeader{
+  display: flex;
+}
+
+
+.images {
+  color: #375e97;
+  font-size: 2em;
+  color: #999999;
+  font-weight: bold;
+}
+
+
+.mainHeader .menu{
+  width: 100%;
+}
+
+
+.menu {
+
+  font: bold 1rem sans-serif;
+  margin: 7rem;
+  padding: 1rem;
+  
+}
+
+
+.mainHeader .menu ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly;
+  width: 100%;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
+.mainHeader figure .images img{
+  max-width: 7rem;
+  max-height: 7rem;
+}
+
+
+.mainHeader .menu ul li{
+  transition: 1s ease-in;
+
+}
+
+/*.menu ul .portfolio{
+  margin-right: auto;
+  margin-left: auto
+}*/
+
+.menu ul .portfolio:hover {
+  font-size: 2rem;
+}
+
+
+/*h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: gold;
+  text-shadow: 3px 3px 3px black;
+} */
+
+
+
+
+video {
+  width: 500px;
+  length: 500px
+}
+
+img {
+  width: 320px; 
+  border-bottom: mediumblue;
+}
+
+
+
+
+

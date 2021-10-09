@@ -1,0 +1,14 @@
+Journaling: Me and JavaScript
+
+
+
+What are the primary uses for JavaScript?
+The Primary uses for JavaScript implementing complex features on web pages. There are many thing we can do using these language such as store useful values inside variables, operations on pieces of texts, and running codes in response to certain events occurring on a web page. Additionally, it's useful for front-end and back-end language.
+
+
+What are some positives to using JavaScript?
+Some Positives to using JavaScrip is providing us with extra superpowers to use in our JavaScript code. Speed and popularity are good features in JS. Also, it allows developers to implement programs that would be hard or impossible to implement. Some of these complex things as DOM API that allow to manipulate HTML and CSS, Geolocation API that is applied in Google Maps, and Canvas API that allow to create animated graphics. 
+
+
+What are some downsides to using JavaScript?
+Some downsides to using JavaScrip are client-side security by using it for malicious purposes, it's full of complexities like class definitions, and browser support which are some browsers sometimes interpret JS code differently. 

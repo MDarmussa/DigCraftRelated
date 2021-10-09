@@ -1,0 +1,7 @@
+.grid {
+     background-color: #efefef;
+     display: grid;
+     padding: 8px;
+     grid-template-columns: 100px 100px 100px 100px;
+     width: 100%;
+   }

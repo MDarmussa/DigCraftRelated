@@ -1,0 +1,16 @@
+
+.product {
+     position: relative;
+  
+}
+.deal {
+     position: relative;
+     top: 680px;
+     
+}
+.item {
+     position: static;
+     top: 30px;
+     left: 0;
+     
+}

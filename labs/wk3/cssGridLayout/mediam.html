@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Layout Solution</title>
+    <style>
+      body {
+        margin: 0;
+      }
+
+      h1 {
+        line-height: 0;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .grid__header {
+        background-color: #eee;
+        padding: 10px;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+      }
+
+      .grid__body {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+      }
+
+      .grid__sidebar {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+      }
+
+      .grid__footer {
+        background-color: #eee;
+        padding: 10px;
+        text-align: center;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+      }
+
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .menu {
+        list-style-type: none;
+        margin: 0;
+      }
+
+      .menu > li {
+        float: left;
+        margin-right: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <header class="grid__header header">
+        <h1>Acme Inc.</h1>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+      <main class="grid__body">
+        <h2>Article Title</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis,
+          rerum voluptate. Cum dolorem saepe deleniti quos nihil nam labore
+          corrupti! Praesentium, esse. Quos, fugit odit, aliquam a eos ad
+          tempora eius ut voluptatem atque vitae praesentium. Quo atque rerum,
+          dolorum, maiores, eos voluptate voluptatum voluptas suscipit molestiae
+          ab ipsam! Illo corrupti repellendus, debitis magnam quod asperiores
+          saepe ad fugiat mollitia doloribus consequatur animi non maxime
+          quibusdam omnis facilis eaque temporibus recusandae, ducimus commodi
+          quasi, qui suscipit? Possimus asperiores temporibus iste nihil
+          veritatis ab vitae rerum accusamus! Deserunt nobis beatae sunt
+          eligendi autem id nemo consectetur assumenda, iste accusantium dolor
+          nostrum?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+          reiciendis eligendi quod beatae porro. In tempore distinctio
+          voluptatibus ducimus explicabo soluta eos ad architecto deserunt
+          temporibus, autem suscipit sint. Illo repellat debitis et vel. Ut
+          commodi sit quis soluta nostrum eveniet quasi doloremque, quod fugit
+          ducimus pariatur impedit aliquam quisquam recusandae! Reiciendis,
+          perferendis eligendi! Dicta incidunt aut enim iste minus veniam
+          tempora cumque delectus sint, voluptatibus excepturi alias quos rerum
+          eaque similique odit beatae repellat necessitatibus quam. Delectus
+          porro illum magni adipisci aspernatur deserunt consequatur vel aliquid
+          similique sint alias, nihil amet eos et, eius optio nesciunt sit hic.
+          Similique amet facilis, dolor quibusdam blanditiis perspiciatis nulla,
+          dolore repudiandae voluptatem unde voluptate quis adipisci debitis
+          esse commodi fugit non impedit asperiores ea inventore sint ut
+          nesciunt doloribus enim. Explicabo iste maxime necessitatibus delectus
+          iure harum quaerat debitis quam odit fugiat qui doloremque, atque nisi
+          reprehenderit distinctio velit illum accusantium asperiores! Pariatur
+          vitae, laborum quos aut blanditiis facere culpa cum laudantium
+          reiciendis, quia esse labore accusantium perspiciatis aspernatur iusto
+          earum voluptatum sit expedita perferendis odit doloribus, suscipit
+          quas. Aspernatur iste officiis eum earum a provident non dolorem quae,
+          nisi facilis rerum quisquam cum sequi impedit quos vero harum mollitia
+          dignissimos obcaecati.
+        </p>
+      </main>
+      <aside class="grid__sidebar">
+        <h3>Extra Links</h3>
+        <ul>
+          <li><a href="#">Official Docs</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </aside>
+      <footer class="grid__footer">
+        &copy; Acme Inc. All Rights Reserved.
+      </footer>
+    </div>
+  </body>
+</html>
